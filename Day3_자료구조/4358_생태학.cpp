@@ -2,12 +2,12 @@
 using namespace std;
 
 map<string, int> tree;
-int cnt;
 
 int main(void)
 {
     ios::sync_with_stdio(false);  cin.tie(NULL);  cout.tie(NULL);
     string input;
+    int cnt;
 
     // 한 라인 단위로 입력을 받음
     while (getline(cin, input))
