@@ -41,6 +41,7 @@ int main() {
 	while (cin >> val) {
 		root = insert(root, val);
 	}
+	
 	postOrder(root);
 
 	return 0;

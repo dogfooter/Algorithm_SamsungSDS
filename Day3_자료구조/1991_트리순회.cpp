@@ -3,33 +3,33 @@ using namespace std;
 
 pair<int, int> tree[26];
 
-void preOrderTraversal(char cur)
+void preOrder(char cur)
 {
     if (cur == '.')
         return;
     
     cout << cur;
-    preOrderTraversal(tree[cur - 'A'].first);
-    preOrderTraversal(tree[cur - 'A'].second);
+    preOrder(tree[cur - 'A'].first);
+    preOrder(tree[cur - 'A'].second);
 }
 
-void inOrderTraversal(char cur)
+void inOrder(char cur)
 {
     if (cur == '.')
         return;
     
-    inOrderTraversal(tree[cur - 'A'].first);
+    inOrder(tree[cur - 'A'].first);
     cout << cur;
-    inOrderTraversal(tree[cur - 'A'].second);
+    inOrder(tree[cur - 'A'].second);
 }
 
-void postOrderTraversal(char cur)
+void postOrder(char cur)
 {
     if (cur == '.')
         return;
     
-    postOrderTraversal(tree[cur - 'A'].first);
-    postOrderTraversal(tree[cur - 'A'].second);
+    postOrder(tree[cur - 'A'].first);
+    postOrder(tree[cur - 'A'].second);
     cout << cur;
 }
 
@@ -46,11 +46,11 @@ int main(void)
         tree[parent - 'A'] = { leftChild, rightChild };
     }
     
-    preOrderTraversal('A');
+    preOrder('A');
     cout << '\n';
-    inOrderTraversal('A');
+    inOrder('A');
     cout << '\n';
-    postOrderTraversal('A');
+    postOrder('A');
     cout << '\n';
 
     return 0;
