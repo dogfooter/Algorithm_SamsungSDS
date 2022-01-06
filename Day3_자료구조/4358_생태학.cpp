@@ -1,11 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-map<string, int> tree;
-
 int main(void)
 {
     ios::sync_with_stdio(false);  cin.tie(NULL);  cout.tie(NULL);
+    map<string, int> tree;
     string input;
     int cnt;
 
