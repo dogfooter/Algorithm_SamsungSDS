@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
-
-#define endl '\n'
 using namespace std;
+#define endl '\n'
 
 enum OPERATOR { PUSH, POP, SIZE, EMPTY, TOP };
 

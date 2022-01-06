@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
-
-#define endl '\n'
 using namespace std;
+#define endl '\n'
 
 string input;
 stack<char> myStack;
