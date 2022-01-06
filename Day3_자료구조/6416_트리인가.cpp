@@ -80,4 +80,6 @@ int main(void)
                 cout << "Case " << testCase++ << " is not a tree." << '\n';
         }
     }   
+
+    return 0;
 }
