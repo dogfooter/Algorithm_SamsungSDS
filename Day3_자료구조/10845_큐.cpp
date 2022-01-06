@@ -106,5 +106,6 @@ int main(void)
                 cout << "명령어 오류" << endl;
         }
     }
+    
     return 0;
 }
