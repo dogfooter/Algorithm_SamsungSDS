@@ -47,6 +47,7 @@
 [1275번: 커피숍2](https://www.acmicpc.net/problem/1275)   
 [2014번: 소수의 곱](https://www.acmicpc.net/problem/2014)   
 [2094번: 강수량](https://www.acmicpc.net/problem/2094)   
+[2517번: 달리기](https://www.acmicpc.net/problem/2517)   
 
 ### Day4 - 정수론
 [1735번: 분수 합](https://www.acmicpc.net/problem/1735)   
@@ -62,7 +63,7 @@
 [4375번: 1](https://www.acmicpc.net/problem/4375)   
 [10610번: 30](https://www.acmicpc.net/problem/10610)   
 [2904번: 수학은 너무 쉬워](https://www.acmicpc.net/problem/2904)   
-[5376번: 소수를 분수로](https://www.acmicpc.net/problem/5376)
+[5376번: 소수를 분수로](https://www.acmicpc.net/problem/5376)   
 
 ### Day5 - 조합론
 [11050번: 이항 계수 1](https://www.acmicpc.net/problem/11050)   
@@ -91,10 +92,34 @@
 
 ### Day7 - 그래프2
 [11266번: 단절점](https://www.acmicpc.net/problem/11266)   
-[1753번: 최단경로](https://www.acmicpc.net/problem/1753)   
+[1238번: 파티](https://www.acmicpc.net/problem/1238)   
+[1753번: 최단경로](https://www.acmicpc.net/problem/1753)      
 [11657번: 타임머신](https://www.acmicpc.net/problem/11657)   
 [11404번: 플로이드](https://www.acmicpc.net/problem/11404)   
 [11400번: 단절선](https://www.acmicpc.net/problem/11400)   
 [3860번: 할로윈 묘지](https://www.acmicpc.net/problem/3860)   
 [5719번: 거의 최단 경로](https://www.acmicpc.net/problem/5719)   
 [1854번: K번째 최단경로 찾기](https://www.acmicpc.net/problem/1854)   
+
+### Day8 - 동적계획법1
+[1932번: 정수삼각형](https://www.acmicpc.net/problem/1932)   
+[11659번: 구간 합 구하기 4](https://www.acmicpc.net/problem/11659)   
+[11660번: 구간 합 구하기 5](https://www.acmicpc.net/problem/11660)   
+[2579번: 계단 오르기](https://www.acmicpc.net/problem/2579)   
+[1915번: 가장 큰 정사각형](https://www.acmicpc.net/problem/1915)   
+[11049번: 행렬 곱셈 순서](https://www.acmicpc.net/problem/11049)   
+[14003번: 가장 긴 증가하는 부분 수열 5](https://www.acmicpc.net/problem/14003)   
+
+### Day9 - 동적계획법2
+[7579번: 앱](https://www.acmicpc.net/problem/7579)   
+[5582번: 공통 부분 문자열](https://www.acmicpc.net/problem/5582)   
+[9252번: LCS 2](https://www.acmicpc.net/problem/9252)   
+[5626번: 제단](https://www.acmicpc.net/problem/5626)   
+[2449번: 전구](https://www.acmicpc.net/problem/2449)   
+[11062번: 카드 게임](https://www.acmicpc.net/problem/11062)   
+[2342번: Dance Dance Revolution](https://www.acmicpc.net/problem/2342)   
+[2098번: 외판원 순회](https://www.acmicpc.net/problem/2098)   
+[1102번: 발전소](https://www.acmicpc.net/problem/1102)   
+[2618번: 경찰차](https://www.acmicpc.net/problem/2618)   
+[7578번: 공장](https://www.acmicpc.net/problem/7578)   
+[10714번: 케이크 자르기 2](https://www.acmicpc.net/problem/10714)   
