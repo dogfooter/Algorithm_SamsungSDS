@@ -4,7 +4,6 @@
 
 using namespace std;
 
-int answer;
 int N, M;
 int DP[MAX][MAX];
 string str;
@@ -20,8 +19,9 @@ int getMin(int a, int b, int c)
 int main()
 {
     ios::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
-
     cin >> N >> M;
+
+    int answer = 0;
     for (int i = 1; i <= N; i++) {
         cin >> str; 
         for (int j = 1; j <= M; j++) {

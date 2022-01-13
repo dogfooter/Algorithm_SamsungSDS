@@ -28,9 +28,9 @@ int main()
     }
 
     int answer = 0;
-    for (int i = 1; i <= n; i++)
+    for (int i = 1; i <= n; i++) {
         answer = max(answer, DP[n][i]);
-
+    }
     cout << answer;
 
     return 0;

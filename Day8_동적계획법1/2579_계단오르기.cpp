@@ -14,13 +14,14 @@ int main(void) {
     cin >> N;
     for (int i = 1; i <= N; i++)
         cin >> score[i];
-        
-    for (int i = 1; i <= N; i++) {
-        if (i == 1) DP[i] = score[i];
-        else if (i == 2) DP[i] = score[i] + score[i - 1];
-        else DP[i] = score[i] + max(score[i - 1] + DP[i - 3], DP[i - 2]);
-    }
+    
+    DP[1] = score[1];
+    DP[2] = score[1] + score[2];
+
+    for (int i = 3; i <= N; i++)
+        DP[i] = score[i] + max(score[i - 1] + DP[i - 3], DP[i - 2]);
     
     cout << DP[N] << '\n';
+    
     return 0;
 }
