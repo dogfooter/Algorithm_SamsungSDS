@@ -18,7 +18,6 @@ int main()
     cin >> str2;
 
     memset(DP, 0, sizeof(DP));
-
     for(int i = 1; i <= str1.size(); i++){
         for(int j = 1; j <= str2.size(); j++){
             if(str1[i-1] == str2[j-1]) {
