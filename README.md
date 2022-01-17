@@ -1,6 +1,10 @@
 # [삼성SDS] 2022년 동계 알고리즘 특강 백준 문제   
 ## 2022-01-03 ~ 2022-01-14 (2주)
-
+- - -
+#### - BOJ에서 제공하는 문제 모음(https://www.acmicpc.net/)  
+#### - 모든 문제의 출처는 BackJoon Online Judge에서 제공하는 문제
+#### - 개인적인 솔루션의 저장 용도이며, 상업적 용도의 게시가 아님을 밝힘
+- - -
 ### Day1 - 알고리즘 기초
 [3425번: 고스택](https://www.acmicpc.net/problem/3425)  
 [3005번: 탈출](https://www.acmicpc.net/problem/3055)  
